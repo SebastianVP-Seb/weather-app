@@ -1,0 +1,77 @@
+.search {
+
+    &_btnClose {
+        display: flex;
+        background-color: rgb(13, 67, 116);
+        color: white;
+        outline: none;
+        padding: .6rem 1rem;
+        border: none;
+        transition: all .5s;
+        margin-left: 15rem;
+        margin-top: 1.5rem;
+
+        &:hover {
+            background-color: rgb(4, 25, 44);
+            cursor: pointer;
+        }
+    }
+
+    &_form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        margin-right: .5rem;
+    }
+
+    &_input {
+        border: white 1px solid;
+        outline: white;
+        background-color: rgb(96, 109, 126);
+        color: white;
+        padding: .5rem 1rem;
+        margin-right: .6rem;
+
+        &::placeholder {
+            color: whitesmoke;
+        }
+    }
+
+    &_btn {
+        background-color: rgb(16, 94, 161);
+        color: white;
+        outline: none;
+        padding: .6rem 1rem;
+        border: none;
+        transition: all .5s;
+
+        &:hover {
+            background-color: rgb(22, 50, 75);
+            cursor: pointer;
+        }
+    }
+
+    &_list {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-weight: bold;
+        margin: 1rem 1rem; 
+        list-style: none;
+
+        & > * {
+            margin-bottom: .7rem;
+        }
+    }
+
+    &_li {
+        transition: all .5s;
+        padding: .5rem 1rem;
+
+        &:hover {
+            background-color: rgb(27, 27, 29);
+            cursor: pointer;
+        }  
+    }
+}

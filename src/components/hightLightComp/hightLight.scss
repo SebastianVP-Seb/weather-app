@@ -1,0 +1,22 @@
+.hightLight {
+    background-color: rgb(27, 27, 29);
+    // background-color: rgb(167, 187, 53);
+    display: grid;
+    grid-template-columns: repeat(2, 17rem);
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    height: 50%;
+    margin-top: -4rem;
+
+    &_comp {
+        background-color: rgb(19, 50, 88);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 7rem;
+        font-size: 1.7rem;
+    }
+}
